@@ -33,6 +33,7 @@ getRadioStations()
   .catch(console.error);
 ```
 
+[Try it yourself](https://npm.runkit.com/hunter.fm)
 
 Contributing
 ------------
