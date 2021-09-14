@@ -1,7 +1,7 @@
 {
   "name": "hunterfm",
   "version": "1.0.0",
-  "description": "A wrapper for the official Hunter.FM API",
+  "description": "An unofficial wrapper for the official Hunter.FM API",
   "license": "MIT",
   "author": "5antos#4876",
   "main": "index.js",
