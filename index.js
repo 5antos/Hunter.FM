@@ -23,14 +23,14 @@ module.exports = async function getRadioStations() {
           },
           palette: color.filter(c => !!c),
           streams: {
-            lowQuality: stream[2].url,
-            mediumQuality: stream[1].url,
-            highQuality: stream[0].url
+            lowQuality: stream.find(({ quality }) => quality === 0).url,
+            mediumQuality: stream.find(({ quality }) => quality === 1).url,
+            highQuality: stream.find(({ quality }) => quality === 2).url
           },
           streamsHLS: {
-            lowQuality: streamHLS[2].url,
-            mediumQuality: streamHLS[1].url,
-            highQuality: streamHLS[0].url
+            lowQuality: streamHLS.find(({ quality }) => quality === 0).url,
+            mediumQuality: streamHLS.find(({ quality }) => quality === 0).url,
+            highQuality: streamHLS.find(({ quality }) => quality === 0).url
           },
           genres: genre.map(g => tileize(g.name)),
           previousSong: {
