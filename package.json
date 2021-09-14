@@ -1,6 +1,6 @@
 {
   "name": "hunter.fm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An unofficial wrapper for the official Hunter.FM API",
   "license": "MIT",
   "author": "5antos#4876",
