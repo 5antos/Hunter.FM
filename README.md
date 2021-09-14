@@ -15,8 +15,12 @@ An unofficial wrapper for the official Hunter.FM API.
 Installation
 ------------
 
-```
+**Node.js 14.0.0 or newer is required.**  
+
+```sh-session
 npm install hunter.fm
+yarn add hunter.fm
+pnpm add hunter.fm
 ```
 
 Example Usage
