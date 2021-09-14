@@ -10,7 +10,7 @@
   <br><br>
 </div>
 
-A wrapper for the official Hunter.FM API.
+An unofficial wrapper for the official Hunter.FM API.
 
 Installation
 ------------
