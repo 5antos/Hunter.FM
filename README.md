@@ -3,6 +3,7 @@
   <p>
     <a href="https://www.npmjs.com/package/hunter.fm"><img src="https://img.shields.io/npm/v/hunter.fm.svg?color=3884FF&label=npm" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/hunter.fm"><img src="https://img.shields.io/npm/dt/hunter.fm.svg?color=3884FF" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/hunter.fm"><img src="https://img.shields.io/badge/dependencies-0-brightgreen?color=3884FF" alt="Dependencies" /></a>
   </p>
   <p>
     <a href="https://www.buymeacoffee.com/5antos" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" height="41" width="174"></a>
@@ -10,7 +11,7 @@
   <br><br>
 </div>
 
-An unofficial wrapper for the official Hunter.FM API.
+An unofficial wrapper for the official Hunter.FM API, dependency-free.
 
 Installation
 ------------

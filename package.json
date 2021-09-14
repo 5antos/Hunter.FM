@@ -8,7 +8,7 @@
   "keywords": [
     "hunterfm",
     "radio",
-    "API"
+    "api"
   ],
   "repository": {
     "type": "git",
@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/5antos/hunter.fm/issues"
   },
-  "homepage": "https://github.com/5antos/hunter.fm#README",
-  "dependencies": {
-    "axios": "^0.21.4"
-  }
+  "homepage": "https://hunter.fm"
 }
