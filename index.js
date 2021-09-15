@@ -70,8 +70,8 @@ module.exports = function getRadioStations() {
                     mediumQuality: `https://cdn.hunter.fm//image/thumb/music/${live.next.hashThumb}/300x300ht.jpg`,
                     highQuality: `https://cdn.hunter.fm//image/thumb/music/${live.next.hashThumb}/1000x1000ht.jpg`
                   },
-                  singers: live.now.singers.map(s => tileize(s)),
-                  feats: live.now.feats?.map(s => tileize(s)) || null
+                  singers: live.next.singers.map(s => tileize(s)),
+                  feats: live.next.feats?.map(s => tileize(s)) || null
                 }
               };
             })
