@@ -86,8 +86,8 @@ currentSong#thumbnail#highQuality | [String](https://developer.mozilla.org/en-US
 currentSong#singers | [String[]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | Song's singers | [ "Frook" ]
 currentSong#feats | [String[]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) or [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null) | Song's feats | null
 currentSong#duration | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Song's duration in milliseconds | 109000
-currentSong#startedAt | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) | Song's start date timestamp | 2021-09-14T17:01:49.334Z
-currentSong#endsAt | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) | Song's end date timestamp | 2021-09-14T17:04:07.334Z
+currentSong#startedAt | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) | Song's start date timestamp (UTC) | 2021-09-14T17:01:49.334Z
+currentSong#endsAt | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) | Song's end date timestamp (UTC) | 2021-09-14T17:04:07.334Z
 nextSong | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | Radio station's next song |
 nextSong#name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Song's name | Your Favorite Place
 nextSong#thumbnail | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | Song's thumbnail |
