@@ -35,8 +35,8 @@ module.exports = function getRadioStations() {
                 },
                 streamsHLS: {
                   lowQuality: streamHLS.find(({ quality }) => quality === 0).url,
-                  mediumQuality: streamHLS.find(({ quality }) => quality === 0).url,
-                  highQuality: streamHLS.find(({ quality }) => quality === 0).url
+                  mediumQuality: streamHLS.find(({ quality }) => quality === 1).url,
+                  highQuality: streamHLS.find(({ quality }) => quality === 2).url
                 },
                 genres: genre.map(g => tileize(g.name)),
                 previousSong: {
