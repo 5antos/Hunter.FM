@@ -64,9 +64,9 @@ streams#lowQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaS
 streams#mediumQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's medium quality stream | https://live.hunter.fm/lofi_normal
 streams#highQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's high quality stream | https://live.hunter.fm/lofi_high
 streamsHLS | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | Radio station's HLS streams |
-streams#lowQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's low quality HLS stream file | https://hls.hunter.fm/lofi/32.m3u8
-streams#mediumQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's medium quality HLS stream file | https://hls.hunter.fm/lofi/64.m3u8
-streams#highQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's high quality HLS stream file | https://hls.hunter.fm/lofi/192.m3u8
+streamsHLS#lowQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's low quality HLS stream file | https://hls.hunter.fm/lofi/32.m3u8
+streamsHLS#mediumQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's medium quality HLS stream file | https://hls.hunter.fm/lofi/64.m3u8
+streamsHLS#highQuality | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Radio station's high quality HLS stream file | https://hls.hunter.fm/lofi/192.m3u8
 genres | [String[]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | Radio station's music genres | [ "Hip Hop", "Lofi", "Relax" ]
 previousSong | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | Radio station's previous song |
 previousSong#name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Song's name | Comfort
